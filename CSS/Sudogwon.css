@@ -1,0 +1,80 @@
+*{
+    background-color: #D09E88;
+    position:relative;
+}
+
+h1{text-align: center;
+background-color: #FADAD8;
+}
+#Seoul{
+   left: 30%;
+}
+.imageCover {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+#InCheon{
+    margin: 0;
+    padding: 0;
+    left: 50%;
+}
+
+
+.gyeonggi{
+    padding: 0;
+    border: 0;
+}
+
+.tables{
+    table-layout: fixed;
+    width: 640px;
+    height: 640px;
+    display:block;
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+.tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #9B8281;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 8px;
+
+    position: absolute;
+    z-index: 1;
+
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+.text_left{
+    top: -5px;
+    right: 105%;
+}
+
+.text_left::after{
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+
+    border-color: transparent transparent transparent black;
+}
+
+b{
+    background-color: rgb(196, 149, 239);
+}
+
+
+
