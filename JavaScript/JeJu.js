@@ -7,7 +7,7 @@ let currentSlideTDay = 1;
 
 function button_click(date, arrow){
     let currentSlide;
-    
+    //if문 으로 해섣 
     if(date=="FDay"){
         if(arrow =="prev"){
             currentSlideFDay -= 1;
