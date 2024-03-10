@@ -1,3 +1,4 @@
+//전라도 관련 js 관리
 // 순천
 let currentSlideSunCheon = 1;
 // 여수
